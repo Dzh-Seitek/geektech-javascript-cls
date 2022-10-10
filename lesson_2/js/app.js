@@ -126,3 +126,4 @@ for (let fruit of fruits) {
     console.log(fruit);
 }
 // let array = [5, 'qwerty', true, undefined, null, {}, []];
+let newArrayFruits = ['banan', 'pineapple'];
