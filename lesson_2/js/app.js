@@ -1,19 +1,19 @@
 // 3. boolean
 
-// let isResident = true;
-//     customerAge = 30;
-// // условие
-// if (!isResident) console.warn('Client cannot take a loan');
+let isResident = true;
+    customerAge = 30;
+// условие
+if (!isResident) console.warn('Client cannot take a loan');
 
-// let congratsMsg;
-// if (customerAge > 45) 
-//     congratsMsg = 'Greetings, Honorable'
-// else if(customerAge > 18 && customerAge < 45)
-//     congratsMsg = 'Greetings'
-// else
-//     congratsMsg = 'Hi'
+let congratsMsg;
+if (customerAge > 45) 
+    congratsMsg = 'Greetings, Honorable'
+else if(customerAge > 18 && customerAge < 45)
+    congratsMsg = 'Greetings'
+else
+    congratsMsg = 'Hi'
 
-// console.log(congratsMsg);
+console.log(congratsMsg);
 
 // операторы сравнения: == - нестрогое сравнение, === - строгое сравнение, != - нестрогое неравенство, !== - строгое неравенство, > <, >= - больше и равно, <= - меньше и равно
 // логические операторы: && - и, || - или
